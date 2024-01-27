@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { CyclesContextProvider } from "./contexts/CyclesContext";
 import { Router } from "./Router";
 import { GlobalStyle } from "./styles/global";
-import { theme } from "./styles/themes/default";
+import theme from "./styles/themes/default";
 
 export function App() {
     return (
